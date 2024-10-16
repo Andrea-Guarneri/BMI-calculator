@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind CSS  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon standard -->
+  <link rel="icon" href="assets/js-logo.png" type="image/x-icon">
+
+  <title>Basic BMI Calculator</title>
+</head>
+
+<body id="body" class="bg-gray-100 flex justify-center items-center h-screen">
+
+  <!-- Este elemento é o container principal que exibirá os dados do IMC na CARD -->
+  <div id="imcCard" class="max-w-xl mx-auto bg-white shadow-md rounded-lg p-6 text-center">
+
+    <!-- CARD header with calculator title -->
+    <h2 class="text-xl font-bold mb-4">Calculadora de IMC</h2>
+
+    <!-- Paragraph to display the result message or initial instructions -->
+    <p class="mb-2 font-sans font-semibold" id="imcMessage"></p>
+
+    <!-- Image that will be used to display the result visually -->
+    <img id="imcImage" class="mx-auto mb-4 max-h-[650px] object-cover rounded" alt="Resultado do IMC" />
+
+    <!-- Paragraph that will display the BMI classification -->
+    <p class="text-xl text-gray-600 font-semibold" id="imcClassification"></p>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="index.js"></script>
+</body>
+
+</html>
