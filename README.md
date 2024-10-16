@@ -12,20 +12,20 @@ I’m building a solid foundation in JavaScript by working on real-world solutio
 
 ### 🌟 Key Features
 
-**User Input**: Prompts users to enter their weight and height via `prompt()`.
-**Dynamic Calculation**: Calculates and displays the user's BMI, along with their classification and an appropriate image.
-**Error Handling**: Displays an error message and fallback image for invalid inputs.
-**Tailwind CSS Integration**: Utilizes Tailwind CSS for a clean, responsive design with utility-first classes.
-**DOM Manipulation**: Dynamically updates the page's background color, image, and text based on the calculated BMI.
-**Responsive Design**: Ensures a seamless layout across various screen sizes.
+-**User Input**: Prompts users to enter their weight and height via `prompt()`.
+-**Dynamic Calculation**: Calculates and displays the user's BMI, along with their classification and an appropriate image.
+-**Error Handling**: Displays an error message and fallback image for invalid inputs.
+-**Tailwind CSS Integration**: Utilizes Tailwind CSS for a clean, responsive design with utility-first classes.
+-**DOM Manipulation**: Dynamically updates the page's background color, image, and text based on the calculated BMI.
+-**Responsive Design**: Ensures a seamless layout across various screen sizes.
 
 ## 🛠️ Technologies and Skills
 
-**JavaScript (ES6+)**: Writing modular, clean code while practicing key concepts.
-**HTML5 & CSS3**: Building structured, accessible, and responsive user interfaces.
-**Tailwind CSS**: Utilizing utility-first CSS for efficient and rapid UI development.
-**DOM Manipulation**: Dynamically altering page elements and styles based on user interactions.
-**Error Handling**: Implementing user-friendly error messages and fallback designs.
+-**JavaScript (ES6+)**: Writing modular, clean code while practicing key concepts.
+-**HTML5 & CSS3**: Building structured, accessible, and responsive user interfaces.
+-**Tailwind CSS**: Utilizing utility-first CSS for efficient and rapid UI development.
+-**DOM Manipulation**: Dynamically altering page elements and styles based on user interactions.
+-**Error Handling**: Implementing user-friendly error messages and fallback designs.
 
 Feel free to clone, explore, and provide feedback on any of my projects! Each one represents a step in my journey to becoming a skilled front-end developer.
 
