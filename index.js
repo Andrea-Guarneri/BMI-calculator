@@ -32,9 +32,9 @@ var imgObesity3 = "assets/obesity-3.png";
 var imgError = "assets/error.png";
 
 // Variables that store the Tailwind classes for the background colors corresponding to each classification
-var bgUnderWeight = "bg-teal-300";
-var bgNormalWeight = "bg-teal-600";
-var bgOverWeight = "bg-orange-600";
+var bgUnderWeight = "bg-blue-400";
+var bgNormalWeight = "bg-green-600";
+var bgOverWeight = "bg-yellow-500";
 var bgObesity1 = "bg-red-600";
 var bgObesity2 = "bg-red-800";
 var bgObesity3 = "bg-red-900";
