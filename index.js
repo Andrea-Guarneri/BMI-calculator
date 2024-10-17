@@ -63,17 +63,17 @@ if (imc >= 0 && imc < 18.5) {
   backgroundClassification += bgOverWeight;      
 
 } else if (imc >= 30 && imc < 35) {
-  classification = "Obesity I";                  
+  classification = "Obesity class I";                  
   imageClassification = imgObesity1;             
   backgroundClassification += bgObesity1;        
 
 } else if (imc >= 35 && imc < 40) {
-  classification = "Obesity II";                 
+  classification = "Obesity class II";                 
   imageClassification = imgObesity2;             
   backgroundClassification += bgObesity2;        
 
 } else if (imc > 40) {
-  classification = "Obesity III";                
+  classification = "Obesity class III";                
   imageClassification = imgObesity3;            
   backgroundClassification += bgObesity3;        
 
