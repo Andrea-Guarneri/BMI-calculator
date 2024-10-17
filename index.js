@@ -88,7 +88,6 @@ document.body.className += backgroundClassification;
 
 // Sets the BMI image based on the user's rating
 document.getElementById("imcImage").setAttribute("src", imageClassification);
-document.getElementById("imcImage").setAttribute("alt", "BMI result: " + classification);
 
 // Displays the message with the BMI value or error
 document.getElementById("imcMessage").innerText = (classification === "error") ?
