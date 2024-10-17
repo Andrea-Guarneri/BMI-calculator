@@ -19,6 +19,14 @@ I’m building a solid foundation in JavaScript by working on real-world solutio
 - **DOM Manipulation**: Dynamically updates the page's background color, image, and text based on the calculated BMI.
 - **Responsive Design**: Ensures a seamless layout across various screen sizes.
 
+## 🌐 Live Demo
+
+You can view and interact with the project via the following link:
+
+**[BMI Calculator Live on Netlify](https://bmi-calculator-ag.netlify.app/)**
+
+I deployed the project using **Netlify**, a platform that allows seamless deployment and management of web applications.
+
 ## 🛠️ Technologies and Skills
 
 - **JavaScript (ES6+)**: Writing modular, clean code while practicing key concepts.
@@ -32,4 +40,3 @@ Feel free to clone, explore, and provide feedback on any of my projects! Each on
 ## 📫 Get in Touch
 
 You can reach me on [LinkedIn](https://www.linkedin.com/in/andreaguarneri) or follow my progress right here on GitHub as I continue working on exciting new projects!
-
