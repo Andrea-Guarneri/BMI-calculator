@@ -15,9 +15,9 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// PROMPT - receiving user weight and height 
-var weight = Number(prompt("What's your weight?"));
-var height = Number(prompt("What's your height?(example: 1.70)"));
+// PROMPT - receiving user weight and height
+var weight = Number(prompt("What's your weight?(example kg: 70"));
+var height = Number(prompt("What's your height?(example cm: 1.70)"));
 
 // BMI calculation
 var imc = weight / height ** 2;
@@ -41,46 +41,40 @@ var bgObesity3 = "bg-red-900";
 var bgError = "bg-purple-600";
 
 // Initialize the variables that will be used to store the ratings
-var imageClassification = null;    // Store the corresponding image
-var classification = null;         // Stores the classification name
+var imageClassification = null; // Store the corresponding image
+var classification = null; // Stores the classification name
 var backgroundClassification = " "; // Store the background color
 // The backgroundClassification variable is initialized to an empty string (" ") as a precaution, to ensure that it always has an initial value, even if it is just a blank. If backgroundClassification did not have an initial value (for example, if it was null or undefined), concatenation could generate an error or unexpected behavior.
 
 // Conditional to check BMI range and classify user
 if (imc >= 0 && imc < 18.5) {
-  classification = "Under Weight";               
-  imageClassification = imgUnderWeight;          
-  backgroundClassification += bgUnderWeight;     
-
+  classification = "Under Weight";
+  imageClassification = imgUnderWeight;
+  backgroundClassification += bgUnderWeight;
 } else if (imc >= 18.5 && imc < 25) {
-  classification = "Normal Weight";              
-  imageClassification = imgNormalWeight;         
-  backgroundClassification += bgNormalWeight;    
-
+  classification = "Normal Weight";
+  imageClassification = imgNormalWeight;
+  backgroundClassification += bgNormalWeight;
 } else if (imc >= 25 && imc < 30) {
-  classification = "Over Weight";                
-  imageClassification = imgOverWeight;           
-  backgroundClassification += bgOverWeight;      
-
+  classification = "Over Weight";
+  imageClassification = imgOverWeight;
+  backgroundClassification += bgOverWeight;
 } else if (imc >= 30 && imc < 35) {
-  classification = "Obesity class I";                  
-  imageClassification = imgObesity1;             
-  backgroundClassification += bgObesity1;        
-
+  classification = "Obesity class I";
+  imageClassification = imgObesity1;
+  backgroundClassification += bgObesity1;
 } else if (imc >= 35 && imc < 40) {
-  classification = "Obesity class II";                 
-  imageClassification = imgObesity2;             
-  backgroundClassification += bgObesity2;        
-
+  classification = "Obesity class II";
+  imageClassification = imgObesity2;
+  backgroundClassification += bgObesity2;
 } else if (imc > 40) {
-  classification = "Obesity class III";                
-  imageClassification = imgObesity3;            
-  backgroundClassification += bgObesity3;        
-
+  classification = "Obesity class III";
+  imageClassification = imgObesity3;
+  backgroundClassification += bgObesity3;
 } else {
-  classification = "error";                    // Error case if BMI is not valid
-  imageClassification = imgError;              // Error image
-  backgroundClassification += bgError;         // Error background color
+  classification = "error"; // Error case if BMI is not valid
+  imageClassification = imgError; // Error image
+  backgroundClassification += bgError; // Error background color
 }
 
 // Applies the corresponding tailwind class to the page background
@@ -90,8 +84,10 @@ document.body.className += backgroundClassification;
 document.getElementById("imcImage").setAttribute("src", imageClassification);
 
 // Displays the message with the BMI value or error
-document.getElementById("imcMessage").innerText = (classification === "error") ?
-  "One of values are invalid" : "Your IMC is: " + imc;
+document.getElementById("imcMessage").innerText =
+  classification === "error"
+    ? "One of values are invalid"
+    : "Your IMC is: " + imc;
 
 // Displays the BMI classification (e.g. "Under Weight", "Normal Weight", etc.)
 document.getElementById("imcClassification").innerText = classification;
